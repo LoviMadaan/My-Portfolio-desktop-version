@@ -936,13 +936,24 @@ textarea {
   }
 
   .language {
-    width: 60%;
     padding-top: 30px;
+    margin-bottom: 20%;
+  }
+
+  .language-head {
+    width: 100%;
   }
 
   .language ul {
     display: flex;
     flex-direction: row;
+    width: 40%;
+  }
+
+  .skill {
+    width: 100%;
+    margin-bottom: 0%;
+    padding-bottom: 2%;
   }
 
   /* NEW CODE FOR SKILLS SECTION */
