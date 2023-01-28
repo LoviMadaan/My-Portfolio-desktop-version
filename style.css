@@ -819,7 +819,7 @@ textarea {
     margin-left: 300px;
     margin-right: 200px;
   }
-  
+
   .card-img {
     width: 544px;
     height: 448px;
@@ -905,7 +905,7 @@ textarea {
   .about {
     display: grid;
     justify-content: center;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     padding: 10%;
   }
 
@@ -922,6 +922,13 @@ textarea {
     width: 100%;
   }
 
+  .about-text p {
+    width: 90%;
+    padding: 10px;
+    margin-right: 0%;
+    padding-right: 0%;
+  }
+
   .java {
     display: flex;
     flex-direction: column;
@@ -929,7 +936,7 @@ textarea {
   }
 
   .language {
-    width: 100%;
+    width: 60%;
     padding-top: 30px;
   }
 
