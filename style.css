@@ -742,3 +742,223 @@ textarea {
   opacity: 0;
   font-weight: 700;
 }
+
+/* desktop devices */
+@media only screen and (min-width: 992px) {
+  .logo {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .navlink {
+    display: flex;
+    gap: 32px;
+  }
+
+  .primary-menu {
+    color: #344563;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  .modal {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .modal-content-body {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .modal-content-body .text {
+    padding-right: 30px;
+  }
+
+  .modal-btns .btn-project {
+    padding: 5px;
+  }
+
+  main.open-modal .menuToggle {
+    background: #c1c7d0;
+  }
+
+  .background h2 {
+    color: #091e42;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+  }
+
+  .intro {
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    display: flex;
+    line-height: 28px;
+  }
+
+  .card-img {
+    width: 544px;
+    height: 448px;
+    transition: transform;
+  }
+
+  .card-img:hover {
+    transform: scale(1.02);
+  }
+
+  .card {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    padding: 24px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .invert {
+    order: -1;
+  }
+
+  form div {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* NEW CODE FOR THE POST CONTAINER */
+
+  .post-section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .post-container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .post-container > div {
+    margin: 0 0 0 0;
+  }
+
+  .post-container div:last-child {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .post-container .left {
+    flex: 1 1 50%;
+    padding: 0;
+  }
+
+  .image {
+    object-fit: contain;
+    height: 100%;
+  }
+
+  .post-container .right {
+    width: 50%;
+    padding: 10px 0 0 0;
+  }
+
+  .order-1 {
+    order: 1;
+  }
+
+  .order-2 {
+    order: 2;
+  }
+
+  .about {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    padding: 10%;
+  }
+
+  .about-desk h1 {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    line-height: 52px;
+    font-style: normal;
+    font-weight: bold;
+    color: #091e42;
+  }
+
+  .desk-about-section {
+    display: flex;
+    width: 100%;
+  }
+
+  .java {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .language {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .language ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* NEW CODE FOR SKILLS SECTION */
+
+  .skillsets {
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 25%;
+  }
+
+  footer {
+    padding: 79px 74px 48px 74px;
+  }
+
+  .form,
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  .error {
+    font-size: 14px;
+  }
+
+  .home-indicator {
+    display: none;
+    visibility: hidden;
+  }
+}
