@@ -748,6 +748,7 @@ textarea {
   .logo {
     font-size: 18px;
     line-height: 20px;
+    margin-left: 80px;
   }
 
   .hamburger-menu {
@@ -757,6 +758,7 @@ textarea {
   .navlink {
     display: flex;
     gap: 32px;
+    margin-right: 80px;
   }
 
   .primary-menu {
@@ -802,8 +804,9 @@ textarea {
     font-weight: bold;
     line-height: 60px;
     display: flex;
-    align-items: center;
+    margin-left: 290px;
     letter-spacing: 0.37px;
+    padding: 8px;
   }
 
   .intro {
@@ -813,8 +816,10 @@ textarea {
     font-size: 20px;
     display: flex;
     line-height: 28px;
+    margin-left: 300px;
+    margin-right: 200px;
   }
-
+  
   .card-img {
     width: 544px;
     height: 448px;
@@ -830,6 +835,10 @@ textarea {
     justify-content: center;
     grid-template-columns: auto auto;
     padding: 24px;
+  }
+
+  .social-icons {
+    margin-left: 300px;
   }
 
   .card-body {
