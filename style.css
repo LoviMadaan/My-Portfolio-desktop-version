@@ -192,11 +192,11 @@ main.open-modal .main-content {
   cursor: pointer;
 }
 
-.hamburger-menu > div {
+.hamburger-menu>div {
   margin-bottom: 3px;
 }
 
-.hamburger-menu > div:last-child {
+.hamburger-menu>div:last-child {
   margin-bottom: 0;
 }
 
@@ -300,14 +300,14 @@ main.active .cancel-menu {
   box-sizing: border-box;
 }
 
-.skills > li {
+.skills>li {
   margin-right: 10px;
   font-size: 13px;
   font-weight: bolder;
   box-sizing: border-box;
 }
 
-.skills > li:last-child {
+.skills>li:last-child {
   margin-right: 0;
 }
 
@@ -479,7 +479,7 @@ h3 {
 
 .img-one {
   width: 100%;
-  
+
   background: #fff;
   border-radius: 0%;
 }
@@ -605,7 +605,7 @@ h3 {
 .tags {
   display: flex;
   gap: 8px;
-  align-items: center;  
+  align-items: center;
 }
 
 .tags .tag {
@@ -948,7 +948,7 @@ textarea {
     background: #e5e5e5;
     padding: 4rem 0;
     border-color: #E5E5E5;
-    background-size: contain;    
+    background-size: contain;
   }
 
   * {
@@ -965,46 +965,47 @@ textarea {
     width: 75%;
     height: 500px;
   }
-  
+
   .project-title {
     margin-top: 15%;
   }
+
   .img-one {
-    height: 450px;    
+    height: 450px;
   }
 
-  
+
 
   .img-two {
     height: 450px;
-    flex-direction: ;    
+    flex-direction: ;
   }
 
   .img-three {
-    height: 450px;    
+    height: 450px;
   }
 
   .img-four {
-    height: 450px;    
+    height: 450px;
   }
 
   .card-info {
-    display: flex;    
+    display: flex;
   }
-  
+
   .card-title {
     font-family: sans-serif;
     font-style: 500;
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
-    padding-bottom: 1rem;    
+    padding-bottom: 1rem;
   }
-  
+
   .card-description {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;    
+    margin-top: 50px;
   }
 
   .social-icons {
@@ -1034,7 +1035,7 @@ textarea {
     margin: 0 auto;
   }
 
-  .post-container > div {
+  .post-container>div {
     margin: 0 0 0 0;
   }
 
