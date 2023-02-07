@@ -1,9 +1,9 @@
-const hamburgerTag = document.querySelector('#hamburger');
-const closeTag = document.querySelector('#close');
-const contactTag = document.querySelector('#contact');
 const aboutTag = document.querySelector('#about');
 const portfolioTag = document.querySelector('#portfolio');
 const mainTag = document.querySelector('main');
+const hamburgerTag = document.querySelector('#hamburger');
+const closeTag = document.querySelector('#close');
+const contactTag = document.querySelector('#contact');
 
 hamburgerTag.addEventListener('click', () => {
   mainTag.classList.add('active');
