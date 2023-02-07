@@ -192,11 +192,11 @@ main.open-modal .main-content {
   cursor: pointer;
 }
 
-.hamburger-menu>div {
+.hamburger-menu > div {
   margin-bottom: 3px;
 }
 
-.hamburger-menu>div:last-child {
+.hamburger-menu > div:last-child {
   margin-bottom: 0;
 }
 
@@ -300,14 +300,19 @@ main.active .cancel-menu {
   box-sizing: border-box;
 }
 
-.skills>li {
+.skills > li {
   margin-right: 10px;
   font-size: 13px;
   font-weight: bolder;
   box-sizing: border-box;
 }
 
-.skills>li:last-child {
+.card-langs li {
+  background: #ebebff;
+  border-radius: 0.5rem;
+}
+
+.skills > li:last-child {
   margin-right: 0;
 }
 
@@ -479,7 +484,6 @@ h3 {
 
 .img-one {
   width: 100%;
-
   background: #fff;
   border-radius: 0%;
 }
@@ -510,7 +514,7 @@ h3 {
 
 .card-title {
   font-family: sans-serif;
-  font-style: 500;
+  font-style: normal;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
@@ -556,12 +560,6 @@ h3 {
   border-radius: 50%;
 }
 
-/* .card-para {
-  padding-bottom: 1rem;
-  color: #344563;
-  padding-right: 250%;
-} */
-
 .card-langs {
   list-style-type: none;
   display: flex;
@@ -573,15 +571,8 @@ h3 {
   font-size: 12px;
 }
 
-.card-langs li {
-  background: #ebebff;
-  border-radius: 0.5rem;
-
-  /* padding: 0.4rem; */
-}
-
 .card-btn {
-  display: fle;
+  display: flex;
   align-items: center;
   padding: 1rem;
   border: 1px solid #6070ff;
@@ -600,12 +591,6 @@ h3 {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-}
-
-.tags {
-  display: flex;
-  gap: 8px;
-  align-items: center;
 }
 
 .tags .tag {
@@ -947,7 +932,7 @@ textarea {
     width: 100%;
     background: #e5e5e5;
     padding: 4rem 0;
-    border-color: #E5E5E5;
+    border-color: #e5e5e5;
     background-size: contain;
   }
 
@@ -974,11 +959,8 @@ textarea {
     height: 450px;
   }
 
-
-
   .img-two {
     height: 450px;
-    flex-direction: ;
   }
 
   .img-three {
@@ -995,7 +977,7 @@ textarea {
 
   .card-title {
     font-family: sans-serif;
-    font-style: 500;
+    font-style: normal;
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
@@ -1035,7 +1017,7 @@ textarea {
     margin: 0 auto;
   }
 
-  .post-container>div {
+  .post-container > div {
     margin: 0 0 0 0;
   }
 
