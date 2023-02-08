@@ -45,8 +45,8 @@ const projects = [
     + 'typesetting, remaining essent',
     featuredImage: 'images/desk-back4.png',
     technologies: ['html', 'css', 'javascript'],
-    liveLink: 'https://sly-cloud.github.io/portfolio-project/',
-    sourceLink: 'https://github.com/Sly-Cloud/portfolio-project',
+    liveLink: 'https://lovimadaan.github.io/Lovi-Portfolio.github.io/',
+    sourceLink: 'https://github.com/LoviMadaan/My-Portfolio-desktop-version.git',
   },
 
   {
@@ -60,8 +60,8 @@ const projects = [
     + 'typesetting, remaining essent',
     featuredImage: 'images/desk-back3.png',
     technologies: ['html', 'css', 'javascript'],
-    liveLink: 'https://sly-cloud.github.io/portfolio-project/',
-    sourceLink: 'https://github.com/Sly-Cloud/portfolio-project',
+    liveLink: 'https://lovimadaan.github.io/Lovi-Portfolio.github.io/',
+    sourceLink: 'https://github.com/LoviMadaan/My-Portfolio-desktop-version.git',
   },
 
   {
@@ -75,8 +75,8 @@ const projects = [
     + 'typesetting, remaining essent',
     featuredImage: 'images/desk-back2.png',
     technologies: ['html', 'css', 'javascript'],
-    liveLink: 'https://sly-cloud.github.io/portfolio-project/',
-    sourceLink: 'https://github.com/Sly-Cloud/portfolio-project',
+    liveLink: 'https://lovimadaan.github.io/Lovi-Portfolio.github.io/',
+    sourceLink: 'https://github.com/LoviMadaan/My-Portfolio-desktop-version.git',
   },
 
   {
@@ -90,8 +90,8 @@ const projects = [
     + 'typesetting, remaining essent',
     featuredImage: 'images/desk-back1.png',
     technologies: ['html', 'css', 'javascript'],
-    liveLink: 'https://sly-cloud.github.io/portfolio-project/',
-    sourceLink: 'https://github.com/Sly-Cloud/portfolio-project',
+    liveLink: 'https://lovimadaan.github.io/Lovi-Portfolio.github.io/',
+    sourceLink: 'https://github.com/LoviMadaan/My-Portfolio-desktop-version.git',
   },
 ];
 
