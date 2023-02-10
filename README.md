@@ -60,7 +60,7 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Html structure with images, icons, header & menu-bar, links, project, skills, etc]**
+- **[Html & Javascript structure with images, icons, header & menu-bar, links, project, skills, etc]**
 - **[Styling css with colors, paddings, margins & sizes, etc]**
 
 
@@ -91,6 +91,8 @@ Feel free to check the [issues page](../../issues/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
+## Future Feature
+[Projects & Skills];
 
 ## ⭐️ Show your support <a name="support"></a>
 
