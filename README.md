@@ -56,6 +56,14 @@
 
 ### Setup
 
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[Html structure with images, icons, header & menu-bar, links, project, skills, etc]**
+- **[Styling css with colors, paddings, margins & sizes, etc]**
+
+
 > Clone this repository to your desired folder:
 
 - git clone https://github.com/LoviMadaan/My-Portfolio-desktop-version.git
