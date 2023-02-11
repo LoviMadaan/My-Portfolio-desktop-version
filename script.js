@@ -209,7 +209,7 @@ if (inputDetails) {
   message.value = contact.message;
 }
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('change', (event) => {
   if (email.value.trim() !== email.value.trim().toLowerCase()) {
     error.style.opacity = 1;
     error.textContent = 'Please, all email characters should be lowercase';
