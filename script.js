@@ -8,9 +8,9 @@ const projectList = document.querySelector('#projects');
 const skillList = `
 <li class="proficiency">CANOPY</li>
 <li class="dot"></li>
-<li class="role">Back End Dev</li>
+<li class="role">Front End Dev</li>
 <li class="dot"></li>
-<li class="year">2015</li>
+<li class="year">2023</li>
 `;
 
 hamburgerTag.addEventListener('click', () => {
@@ -36,17 +36,14 @@ contactTag.addEventListener('click', () => {
 const projects = [
   {
     projectId: 'projectOne',
-    name: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and '
-      + 'typesetting industry. Lorem Ipsum has been the industry\'s '
-      + 'standard dummy text ever since the 1500s, when an unknown printer '
-      + 'took a galley of type and scrambled it to make a type specimen book. '
-      + 'It has survived not only five centuries, but also the leap into electronic '
-      + 'typesetting, remaining essent',
-    featuredImage: 'images/desk-back4.png',
+    name: 'Leaderboard',
+    description: 'This is Leaderboard website Users can add scores and'
+    + 'names permanently in by using this Leaderboard webiste.'
+    + 'I used HTML, CSS, JS and API in this project.',
+    featuredImage: 'images/ss.png',
     technologies: ['html', 'css', 'javascript'],
-    liveLink: 'https://lovimadaan.github.io/Lovi-Portfolio.github.io/',
-    sourceLink: 'https://github.com/LoviMadaan/My-Portfolio-desktop-version.git',
+    liveLink: 'https://lovimadaan.github.io/Leaderboard/dist/',
+    sourceLink: 'https://github.com/LoviMadaan/Leaderboard.git',
   },
 
   {
